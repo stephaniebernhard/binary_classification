@@ -145,6 +145,10 @@ The following graph shows the coefficients of the linear regression performed on
 
 ![png](out/coefficients.png)
 
+The precision/recall curve for the logistic regression model is shown in the following graph:
+
+![png](out/precision_recall.png)
+
 Using the same pipeline, different tree-based models have been tries (decision tree, random forest, gradient-boosted). The gradient-boosted tree has beformed best with a AUROC of approx. 0.931 on the given test set. 
 
 In order to optimize/tune the parameters used, a parameter grid has been built and different trees have been trained and evaluated using a cross validator. 
